@@ -1,6 +1,6 @@
-[![](https://jitpack.io/v/JuanBindez/kohmslaw.svg)](https://jitpack.io/#JuanBindez/kohmslaw)
+# Kohmslaw Library
 
-# KohmsLaw Library
+[![](https://jitpack.io/v/JuanBindez/kohmslaw.svg)](https://jitpack.io/#JuanBindez/kohmslaw)
 
 A lightweight Kotlin library to calculate electrical parameters using Ohm's Law.
 

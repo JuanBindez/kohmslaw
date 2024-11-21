@@ -11,9 +11,16 @@ A lightweight Kotlin library to calculate electrical parameters using Ohm's Law.
 
 ## Installation
 
-Add the dependency to your `build.gradle` file:
+Or if you are using kotlin-DSL in an build.gradle.kts file:
 ```groovy
-implementation 'com.github.JuanBindez:kohmslaw:v1.0.0'
+repositories {
+    mavenCentral()
+    maven("https://jitpack.io")
+}
+
+dependencies {
+    implementation("com.github.LucasAlfare:FLBinary:v1.6")
+}
 ```
 
 ## Usage

@@ -5,7 +5,7 @@ plugins {
 }
 
 group = "org.example"
-version = "1.0-rc1"
+version = "1.0-rc4"
 
 repositories {
     mavenCentral()
@@ -18,7 +18,7 @@ application {
 
 tasks.jar {
     archiveBaseName.set("ohmslaw")
-    archiveVersion.set("1.0-rc3")
+    archiveVersion.set("1.0-rc4")
 }
 
 tasks.test {

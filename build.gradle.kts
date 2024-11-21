@@ -8,10 +8,7 @@ version = "1.0-rc1"
 
 repositories {
     mavenCentral()
-}
-
-dependencies {
-    testImplementation(kotlin("test"))
+    maven { url 'https://jitpack.io' }
 }
 
 application {
@@ -20,9 +17,13 @@ application {
 
 tasks.jar {
     archiveBaseName.set("ohmslaw")
-    archiveVersion.set("1.0-rc1")
+    archiveVersion.set("1.0-rc2")
 }
 
 tasks.test {
     useJUnitPlatform()
+}
+dependencies {
+    testImplementation(kotlin("test"))
+    implementation 'com.github.JuanBindez:kohmslaw:Tag'
 }

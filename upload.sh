@@ -2,8 +2,8 @@
 
 VERSION=1
 MINOR=0
-PATCH=
-EXTRAVERSION="-rc5"
+PATCH=0
+EXTRAVERSION=""
 
 NOTES="(update test)"
 BRANCH="main"

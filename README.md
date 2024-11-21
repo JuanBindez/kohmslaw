@@ -19,7 +19,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.LucasAlfare:FLBinary:v1.6")
+    implementation("com.github.JuanBindez:kohmslaw:v1.0.0")
 }
 ```
 
